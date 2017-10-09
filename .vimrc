@@ -1,7 +1,28 @@
 set relativenumber
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
+call plug#begin('~/.vim/plugged')
+
+"fuzzy search
+Plug 'kien/ctrlp.vim'
+
+" vim rails pluging
+Plug 'tpope/vim-rails'
+
+" go development plugin 
+Plug 'fatih/vim-go'
+
+" vim airlineg
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
+
+if has('autocmd')
+  filetype plugin indent on
+endif
+
+if has('syntax') && !exists('g:syntax_on')
+  syntax enable
+endif
+
 set autoread
 au CursorHold * checktime 
 set lines=35 columns=150

@@ -2,4 +2,4 @@
 	name = Aadesh
 	email = aadeshere1@gmail.com
 [core]
-	excludesfile = /home/jonecooper/.gitignore
+	excludesfile = /home/jonecooper/.gitignore_global

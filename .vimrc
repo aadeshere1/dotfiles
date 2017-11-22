@@ -2,7 +2,7 @@ set relativenumber
 call plug#begin('~/.vim/plugged')
 
 "fuzzy search
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " vim rails pluging
 Plug 'tpope/vim-rails'
@@ -10,10 +10,14 @@ Plug 'tpope/vim-rails'
 " go development plugin 
 Plug 'fatih/vim-go'
 
-" vim airlineg
+" airline
 Plug 'vim-airline/vim-airline'
 
+" emmet-vim
+Plug 'mattn/emmet-vim'
+
 call plug#end()
+
 
 if has('autocmd')
   filetype plugin indent on
@@ -40,4 +44,4 @@ set smartcase 		"- Override ignorcase if upcase is present
 
 set autowrite  "writes the content of the file automatically if you call :make
 
-:colorscheme molokai
+:colorscheme solarized 

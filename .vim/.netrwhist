@@ -1,4 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/jonecooper/Documents/ruby/hulaki/lib/hulaki'
-let g:netrw_dirhist_2='/home/jonecooper/Documents/ruby/ed-media'
+let g:netrw_dirhist_cnt =0

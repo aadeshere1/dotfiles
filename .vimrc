@@ -7,6 +7,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 " vim rails pluging
 Plug 'tpope/vim-rails'
 
+" git wrapper
+Plug 'tpope/vim-fugitive'
+
 " go development plugin 
 Plug 'fatih/vim-go'
 
@@ -15,6 +18,13 @@ Plug 'vim-airline/vim-airline'
 
 " emmet-vim
 Plug 'mattn/emmet-vim'
+
+" elm
+Plug 'elmcast/elm-vim'
+
+Plug 'vim-ruby/vim-ruby'
+
+Plug 'dart-lang/dart-vim-plugin'
 
 call plug#end()
 

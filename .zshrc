@@ -1,5 +1,6 @@
 export ZSH=/home/jonecooper/.oh-my-zsh
-
+. ~/.shrc
+. ~/.api_keys
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -44,3 +45,11 @@ fi
 eval "$(pyenv virtualenv-init -)"
 export ENV=dev
 export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
+export GMAIL_USERNAME=""
+export GMAIL_PASSWORD=""
+export SECRET_KEY_BASE=ef1816ba10cfd5294c83746db4d0902648076df8ddc7633b4524717ac9b27e55f4abaa7a53a37507debf4ef66bec56d0ad91a4d9a0099c012b9b1ed7b6d91f59e
+export PATH="$HOME/.elmenv/bin:$PATH"
+eval "$(elmenv init -)"
+
+# path for flutter
+export PATH="$HOME/flutter/bin:$PATH"

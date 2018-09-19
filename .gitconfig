@@ -3,3 +3,6 @@
 	email = aadeshere1@gmail.com
 [core]
 	excludesfile = /home/jonecooper/.gitignore_global
+	editor = subl -n -w
+[commit]
+	verbose = true

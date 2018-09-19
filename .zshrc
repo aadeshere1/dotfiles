@@ -13,6 +13,7 @@ source $ZSH/oh-my-zsh.sh
 alias rspec="bundle exec rspec"
 alias rake="bundle exec rake"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+export BROWSER=google-chrome-stable
 
 
 
@@ -26,7 +27,7 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export JAVA_HOME="/usr/lib/jvm/java-8-jdk/bin/java"
+#export JAVA_HOME="/usr/lib/jvm/java-8-jdk/bin/java"
 export CLASSPATH="
 .:/usr/lib/jvm/java-8-jdk/lib/:/usr/share/tomcat7/lib/servlet-api.jar:/usr/share/tomcat7/lib/jsp-api.jar"
 
@@ -53,3 +54,5 @@ eval "$(elmenv init -)"
 
 # path for flutter
 export PATH="$HOME/flutter/bin:$PATH"
+test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
+export JAVA_HOME='/usr/lib/jvm/java-8-jdk'

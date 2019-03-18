@@ -6,3 +6,5 @@
 	editor = subl -n -w
 [commit]
 	verbose = true
+[tag]
+  verbose = true

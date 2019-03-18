@@ -1,1 +1,8 @@
-alias ngrok="~/./ngrok http 3000"
+ngrok() {
+	if [ "$1" != "" ]
+	then
+		~/./ngrok http "$1"
+	else
+		~/./ngrok http 3000
+	fi
+}
